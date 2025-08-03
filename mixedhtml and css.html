@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="VILMA MAINA portfolio -fullstackdeveloper.">
+	<meta name="author" content="Vilma Maina">
+	<title>VILMA MAINA PORTFOLIO</title>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+      <style>
+       main {
+      margin-left: 185px;
+     
+}
+  
+             nav {
+                  top: 6px;
+      background-color: #222;
+      color: white;
+      width: 180px;
+      height: 120vh;
+      position: fixed;
+      padding-top: 30px;
+      z-index: 1000;
+    }
+     nav a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 15px 20px;
+    }
+    nav a:hover {
+      background-color: #444444;
+    }
+    .highlight{
+      color: blue;
+      font-style: italic;
+    }
+    header {
+      
+      left:180px;
+  height: 80px; 
+  display: flex;
+  justify-content: center;  /* centers horizontally */
+  align-items: center;     
+  text-align: center;       
+  background-color: #001f3f;   
+  color: #fff;              
+}
+main {
+      margin-left: 185px;
+      position: relative;
+
+}
+.profile-pic {
+      position: absolute;
+      top: 6px;
+      right: 170px;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.social.icons img{
+      width: 32px;
+      height: 32px;
+      filter: brightness(0) invert(1);
+}
+.follow-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #1f1f1f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+ .pagesection {
+      min-height: 100vh;
+      display: none;
+      padding: 40px 20px;
+      background-color: #f4f4f4;
+      box-sizing: border-box;
+ }
+ .page-section:target {
+      display: block;
+}
+      .page-section:first-of-type {
+      display: block;
+}
+      </style>
+</head>
+
+<body>
+	<header>
+	<h2>PORTFOLIO</h2>
+      <a href="https://github.com/sciv4" class="follow-button" target="_blank" rel="noopener">Follow Me</a>
+
+        
+	</header>
+	
+<nav>
+
+      <a href="#Home">Home</a>
+      <a href="#about">About me</a>
+      <a href="#skills"> Skills </a>
+      <a href="#Projects">Projects</a>
+      <a href="#Contact">Contact</a>
+      <a href="CV.pdf" download class="download-btn">Download CV</a>
+      <hr>
+      <section class="social icons">
+             <a href="https://github.com/sciv4" target="_blank" rel="noopener" title="Github">
+              <img src="github.svg" alt="GitHub" />
+              </a>
+                  <a href="https://www.linkedin.com/in/vilma-maina-0b1b4a1b2/" target="_blank" rel="noopener" title="Linkedin">
+                     <img src="linkedin.svg" alt="LinkedIn" />
+                     </a>
+        
+                     
+                     </a>
+                  
+      </section>
+
+      </nav>
+<main>
+
+
+      <section id="Home" class="page-section" >
+            <h2>Home 🏠</h2>
+      	<h2>Hi there, 👋 am VILMA MAINA</h2>
+            <p>A curious mind on a journey to becoming a Full Stack Developer.</p>
+      	<p>Translating business needs into robust digital solutions</p>
+      	<p class="highlight">Tech enthusiast | Problem solver | Lifelong learner.</p>
+            <img src="profile.jpg" alt="My Profile Picture" class="profile-pic">
+
+      </section>
+      <section id="About" class="page-section">
+            <h2>About Me 👩‍💻</h2>
+            <p>I am an emerging developer actively advancing my skills on the path to becoming a Full Stack Developer. What fuels me is the intersection of problem solving and creativity taking real world challenges and transforming them into elegant, functional digital solutions.</p>
+            <h4>Interests</h4>
+            <p>I am deeply interested in problem solving, building functional and efficient systems, and turning ideas into interactive digital experiences. I am passionate about learning new technologies, understanding how things work under the hood, and continuously improving both my technical skills and the impact of my work. </p>
+            <p>Whether it's contributing to a team project or exploring a new tech stack.</p>
+
+</section>
+<section id="beyond-tech" class="page-section">
+  <h2>🎨 Beyond Tech</h2>
+  <p>Aside from coding, you'll find me ticking something off my bucket list, whether it's hiking a new trail, pushing through a fitness goal, experimenting with a new recipe in the kitchen, or putting thoughts to paper through writing.  From discovering new perspectives to challenging myself in new ways. I believe that staying curious beyond the screen fuels my creativity and keeps me inspired. I enjoy experiences that help me grow both personally and professionally.
+</section>
+<section id="skills">
+            <h2>Skills 🛠️</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>python</li>
+                <li>MySQL</li>
+                <li>Git and Github</li>
+
+      
+                
+                
+            </ul>
+      </section>
+
+      <section id="Projects">
+            <h2>Projects 📂</h2>
+            <p>This happens to be my first project to push to github, personal website built with HTML and CSS to showcase my skills, experience, and contact information.</p>
+      <a href="https://github.com/sciv4" target="_blank" rel="noopener">View Code</a>
+            <p>Check out my projects on GitHub: <a href="https://github.com/sciv4"> Scv4 Github (Vilma Maina)</a>
+</section>
+                  <section id="Contact">
+                        <h2>Contact 📞</h2>
+                        <p>I would love to connect!</p>
+ <!-- Email -->
+                        <p>Email: <a href="mailto:V4.vilmaina@gmail.com">📧: V4.vilmaina@gmail.com</a></p>
+                        <p>call me on: <a href="tel:+254717175426">+254717175426</a>
+                        or <a href="tel:+254723531475">+254723531475</a></p>
+
+                  </section>
+            
+</main>
+
+
+
+  
+
+</body>
+</html>

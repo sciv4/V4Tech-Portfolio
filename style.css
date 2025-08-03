@@ -1,0 +1,92 @@
+main {
+  margin-left: 185px;
+}
+
+nav {
+  top: 6px;
+  background-color: #222;
+  color: white;
+  width: 180px;
+  height: 120vh;
+  position: fixed;
+  padding-top: 30px;
+  z-index: 1000;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+}
+
+nav a:hover {
+  background-color: #444444;
+}
+
+.highlight {
+  color: blue;
+  font-style: italic;
+}
+
+header {
+  left:180px;
+  height: 80px; 
+  display: flex;
+  justify-content: center;  /* centers horizontally */
+  align-items: center;     
+  text-align: center;       
+  background-color: #001f3f;   
+  color: #fff;              
+}
+
+main {
+  margin-left: 185px;
+  position: relative;
+}
+
+.profile-pic {
+  position: absolute;
+  top: 6px;
+  right: 170px;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.social.icons img {
+  width: 32px;
+  height: 32px;
+  filter: brightness(0) invert(1);
+}
+
+.follow-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #1f1f1f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.pagesection {
+  min-height: 100vh;
+  display: none;
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  box-sizing: border-box;
+}
+
+.page-section:target {
+  display: block;
+}
+.page-section:first-of-type {
+  display: block;
+}
